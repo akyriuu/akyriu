@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Marcus Vinícius — backend-focused JavaScript developer. Building real projects with Node.js, TypeScript, and Docker"
+    />
+    <meta name="author" content="Marcus Vinícius" />
+    <meta property="og:title" content="Marcus Vinícius | Backend Developer" />
+    <meta
+      property="og:description"
+      content="Desenvolvedor JavaScript backend. REST APIs, PostgreSQL, JWT — em produção."
+    />
+    <meta property="og:url" content="https://akyriuu.github.io/akyriu" />
+    <title>Marcus Vinícius | Desenvolvedor Backend</title>
+    <link rel="icon" type="image/png" href="assets/icon.png" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Marcus Vinícius</h1>
+      <img
+        src="../assets/PortfolioPic.jpeg"
+        alt="Marcus Vinícius — JavaScript Developer"
+      />
+      <p class="subtitle">Akyriu</p>
+      <p class="role">
+        Desenvolvedor JavaScript ·
+        <span> Backend</span>
+      </p>
+      <nav>
+        <a href="#about"> Sobre mim </a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato </a>
+        <button id="lang-toggle">English</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>Sobre mim</h2>
+        <p>
+          Olá! Sou Marcus. Desenvolvedor backend com conhecimento em Node.js,
+         NestJS, TypeScript e PostgreSQL. Tenho experiência em redes e
+          infraestrutura ISP. Focado em desenvolvimento backend e interessado em colaborar em times de desenvolvimento.      
+       </p>
+      </section>
+
+      <section id="skills">
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+          <li>
+            <strong>Linguagens:</strong>JavaScript (ES6+), TypeScript, HTML5,
+            CSS3
+          </li>
+          <li>
+            <strong>Back-end:</strong> Node.js, NestJS, Docker, Express.js, Fastify, REST API,
+            PostgreSQL, Prisma.
+          </li>
+          <li><strong>Ferramentas:</strong> Git, GitHub, VS Code, Railway</li>
+          <li>
+            <strong>Pontos Fortes:</strong>Forte resolução de problemas e
+            Análise, Comunicação Adaptativa, Colaboração Eficaz em Equipe.
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projetos</h2>
+    <article>
+          <h3>NestJS - Autenticação</h3>
+          <span class="date">June 2026</span>
+          <p>
+            Sistema de autenticação completo construído com NestJS. Cobre registro, login, logout, access e refresh tokens, e rotas protegidas utilizando Passport com estratégias Local e JWT. Persistência de dados com Prisma e PostgreSQL.
+          </p>
+          <div class="stack-tags">
+            <span class="tag">NestJS</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Prisma</span>
+            <span class="tag">JWT</span>
+            <span class="tag">Passport</span>
+          </div>
+
+          <a
+            href="https://github.com/akyriuu/nest-auth"
+            data-preview="../assets/nestauth-preview.jpeg"
+          >
+            Check on Github</a
+          >
+        </article>
+        <article>
+          <h3>Track.ly</h3>
+          <span class="date">Maio 2026</span>
+          <p>
+            API REST para rastreamento de músicas integrada ao Last.fm. Usuários criam conta, vinculam o username do Last.fm e visualizam a música tocando agora junto com top artistas e faixas. Construído com Fastify, PostgreSQL, Prisma e autenticação JWT — com deploy no Railway.
+          </p>
+           <div class="stack-tags">
+            <span class="tag">Fastify</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Prisma</span>
+            <span class="tag">JWT</span>
+            <span class="tag">Railway</span>
+          </div>
+
+          <a
+            href="https://github.com/akyriuu/Track.ly"
+            data-preview="../assets/trackly-preview.gif"
+          >
+            Ver no Github</a
+          >
+        </article>
+
+
+        <article>
+          <h3>Post.fy - <span style="font-size: 0.8em; font-weight: normal; opacity: 0.6">(privado — projeto comercial)</span></h3>
+          <span class="date">2026 — em desenvolvimento</span>
+          <p>
+            App colaborativo de notas em canvas para pequenos negócios. TypeScript, Supabase, sincronização em tempo real com WebSockets. Co-fundado e em desenvolvimento para lançamento.
+          </p>
+            <div class="stack-tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">Rough.js</span>
+            <span class="tag">HTML/CSS</span>
+          </div>
+        </article>
+ 
+
+
+
+        <article>
+          <h3>Sistema de Monitoramento</h3>
+          <span class="date">Março - 2026</span>
+          <p>
+            Monitora a disponibilidade e tempo de resposta de serviços como
+            Google, Netflix e Spotify em tempo real. O projeto mais próximo do
+            meu dia a dia em infraestrutura — TypeScript em modo estrito,
+            arquitetura assíncrona e uma interface dinâmica construída do zero.
+          </p>
+
+           <div class="stack-tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">Async</span>
+            <span class="tag">Node.js</span>
+          </div>
+          <a
+            href="https://github.com/akyriuu/Monitoring-System"
+            data-preview="../assets/monitoring-preview.gif"
+          >
+            Ver no Github</a
+          >
+        </article>
+
+        <!-- // second PROJECT NOW -->
+        <article>
+          <h3>Automação de Tarefas</h3>
+          <span class="date">Abril - 2026</span>
+          <p>
+            Um Google Apps Script criado para resolver um problema real no
+            trabalho — rastrear equipamentos físicos em duas caixas de
+            localização usando o Google Sheets. Cole endereços MAC ou Números de
+            Série e o script destaca instantaneamente cada item como presente ou
+            ausente. Construído em produção, usado em produção.
+          </p>
+           <div class="stack-tags">
+            <span class="tag">Google Apps Script</span>
+            <span class="tag">Automation</span>
+            <span class="tag">In production</span>
+          </div>
+          <a
+            href="https://github.com/akyriuu/Automating-Task"
+            data-preview="../assets/automating-preview.gif"
+          >
+            Ver no Github</a
+          >
+        </article>
+
+        <!-- // third PROJECT NOW // -->
+        <article>
+          <h3>Resolução Matemática</h3>
+          <span class="date">Março - 2026</span>
+          <p>
+            Ferramenta de treino matemático desenvolvida para prática deliberada
+            de aritmética. Projeto pessoal com foco em UX limpa - sem pontuações
+            ou níveis, apenas cálculo e velocidade de resposta.
+          </p>
+           <div class="stack-tags">
+            <span class="tag">Typescript</span>
+            <span class="tag">Tailwind css</span>
+          </div>
+          <a
+            href="https://github.com/akyriuu/Math-Solution"
+            data-preview="../assets/mathsolution-preview.gif"
+          >
+            Ver no Github</a
+          >
+        </article>
+      </section>
+      <section id="experience">
+        <h2>Experiência</h2>
+
+        <div class="experience-item">
+          <h3>Analista de Suporte Técnico</h3>
+          <p class="experience-company">
+            ISP — Provedor de Internet · Brasil
+          </p>
+          <ul class="experience-bullets">
+            <li>
+               Diagnóstico e resolução de infraestrutura de rede para clientes
+        residenciais e empresariais
+            </li>
+            <li>
+              Desenvolvi um script de automação (Google Apps Script) atualmente
+        em produção para rastreamento de equipamentos
+            </li>
+            <li>
+              Experiência prática com roteamento, switching e monitoramento de
+        disponibilidade de serviços
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contato</h2>
+        <ul>
+          <li>
+            <strong>Email</strong>
+            <a href="mailto:akyriu@hotmail.com">akyriu@hotmail.com</a>
+          </li>
+          <li>
+            <strong>LinkedIn</strong>
+            <a
+              href="https://linkedin.com/in/marcus-vin%C3%ADcius-4a9a713a0"
+              target="_blank"
+              >Marcus Vinícius</a
+            >
+          </li>
+          <li>
+            <strong>GitHub</strong>
+            <a href="https://github.com/akyriuu" target="_blank">akyriuu</a>
+          </li>
+        </ul>
+      </section>
+
+<section class="education">
+        <h2>D I F E R E N C I A L</h2>
+        <div class="education-item">
+          <p class="degree">Scripts rodando em produção</p>
+          <hr style="border: none; border-top: 1px solid #333; margin: 8px 0" />
+          <p class="details">Ferramentas de automação construídas e usadas ativamente no trabalho atual.</p>
+          <div class="education-item" style="margin-top: 16px">
+            <p class="degree">Idiomas</p>
+            <hr style="border: none; border-top: 1px solid #333; margin: 8px 0" />
+            <p class="details">Inglês · Fluente &nbsp;|&nbsp; Português · Nativo</p>
+          </div>
+          <div class="education-item" style="margin-top: 16px">
+            <p class="degree">Técnico em Recursos Humanos</p>
+            <hr style="border: none; border-top: 1px solid #333; margin: 8px 0" />
+            <p class="details">ETEC Pedro Ferreira Alves · Concluído em 2021</p>
+          </div>
+        </div>
+      </section>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 - Desenvolvido por Akyriu</p>
+    </footer>
+    <script>
+      document.getElementById("lang-toggle").onclick = () => {
+        window.location.href = "../index.html";
+      };
+    </script>
+    <script src="../src/script.js"></script>
+  </body>
+</html>
