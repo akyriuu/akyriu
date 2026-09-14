@@ -1,32 +1,59 @@
-# devmarcus
+# Portfolio.
 
-Portfólio de Marcus Vinícius Carneiro dos Santos — Desenvolvedor Backend (Node.js, NestJS, TypeScript, AWS).
+Portfólio de Marcus Vinícius — Desenvolvedor Backend (Node.js, NestJS, TypeScript, AWS).
 
-Next.js 16 (App Router, Turbopack) · React 19 · Tailwind CSS v4 · TypeScript.
+# Sobre
 
-## Rodando
+## Desenvolvedor Backend com foco na construção de APIs, sistemas de pagamentos e serviços distribuídos.
 
-```bash
-npm install
-npm run dev     # http://localhost:3000
-npm run build
-npm run lint
-```
+### Trabalho principalmente com:
 
-## Estrutura
+Node.js · TypeScript · NestJS
+PostgreSQL · Prisma
+Redis · RabbitMQ
+Docker · Jest
+AWS · Serverless
+REST APIs · Webhooks · Filas · Workers
+Clean Architecture · Hexagonal · SOLID
 
-| Caminho                     | Conteúdo                                                        |
-| --------------------------- | --------------------------------------------------------------- |
-| `src/lib/content.ts`        | Todo o conteúdo do site em PT e EN — única fonte de verdade      |
-| `src/lib/i18n.tsx`          | Troca de idioma persistida em `localStorage`                     |
-| `src/components/cube.tsx`   | Cubo 3×3 interativo em CSS 3D (arraste, clique, teclas R U F L D B) |
-| `src/app/page.tsx`          | Home                                                            |
-| `src/app/resume/page.tsx`   | Currículo em HTML, com download do PDF                          |
-| `public/`                   | PDF do currículo servido em `/marcus-vinicius-backend.pdf`      |
+# Projetos
 
-Para atualizar textos, números ou projetos, edite apenas `src/lib/content.ts`.
+## Sistemas Financeiros
 
-## Deploy
+### Projetos voltados para pagamentos, movimentação de dinheiro e consistência de dados:
 
-`NEXT_PUBLIC_SITE_URL` define a URL base usada em metadata, `sitemap.xml` e `robots.txt`.
-Todas as rotas são pré-renderizadas estaticamente.
+ Double-Entry Ledger — motor de contabilidade de partidas dobradas com idempotência, controle de concorrência e trilha de auditoria.
+
+ Funds Reservation API — reservas de fundos com captura parcial/total, liberação, expiração e testes de concorrência.
+
+ Payment Processing Queue — processamento assíncrono de pagamentos com RabbitMQ, retries, DLQ, idempotência e transactional outbox.
+
+# APIs e Integrações
+
+ Mercado Pago PIX API — criação e consulta de cobranças PIX, webhooks e validação de assinatura HMAC.
+
+ Stripe Payment API — checkout em BRL, processamento de webhooks e atualização de status.
+
+ Marketplace — aplicação full-stack com autenticação, produtos, checkout e processamento de pagamentos.
+
+# AWS / Serverless
+
+Projetos explorando arquiteturas serverless para APIs e processamento assíncrono utilizando serviços como:
+
+Lambda · API Gateway · SQS · SNS · S3 · RDS · CloudWatch
+
+# Stack
+
+Backend      Node.js · TypeScript · NestJS
+Database     PostgreSQL · Prisma · SQLite
+Messaging    RabbitMQ · SQS
+Cache        Redis
+Cloud        AWS · Serverless
+Testing      Jest · Testcontainers
+DevOps       Docker · GitHub Actions
+Frontend     React · Next.js · Tailwind
+
+# Links
+
+GitHub: https://github.com/akyriuu
+LinkedIn: Marcus Vinícius
