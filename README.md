@@ -44,6 +44,7 @@ Lambda · API Gateway · SQS · SNS · S3 · RDS · CloudWatch
 
 # Stack
 
+```text
 Backend      Node.js · TypeScript · NestJS
 Database     PostgreSQL · Prisma · SQLite
 Messaging    RabbitMQ · SQS
@@ -52,8 +53,72 @@ Cloud        AWS · Serverless
 Testing      Jest · Testcontainers
 DevOps       Docker · GitHub Actions
 Frontend     React · Next.js · Tailwind
+```
 
 # Links
 
 GitHub: https://github.com/akyriuu
 LinkedIn: Marcus Vinícius
+
+# Portfolio
+
+Portfolio of **Marcus Vinícius** — Backend Developer (**Node.js, NestJS, TypeScript, AWS**).
+
+# About
+
+## Backend Developer focused on building APIs, payment systems, and distributed services.
+
+Main technologies and concepts:
+
+Node.js · TypeScript · NestJS
+PostgreSQL · Prisma
+Redis · RabbitMQ
+Docker · Jest
+AWS · Serverless
+REST APIs · Webhooks · Queues · Workers
+Clean Architecture · Hexagonal Architecture · SOLID
+
+# Projects
+
+## Financial Systems
+
+### Projects focused on payments, money movement, and data consistency:
+
+* **Double-Entry Ledger** — double-entry accounting engine with idempotency, concurrency control, and an audit trail.
+
+* **Funds Reservation API** — fund reservations with partial/total capture, release, expiration, and concurrency testing.
+
+* **Payment Processing Queue** — asynchronous payment processing with RabbitMQ, retries, DLQ, idempotency, and transactional outbox.
+
+# APIs and Integrations
+
+* **Mercado Pago PIX API** — PIX charge creation and status queries, webhooks, and HMAC signature validation.
+
+* **Stripe Payment API** — BRL checkout, webhook processing, and payment status updates.
+
+* **Marketplace** — full-stack application with authentication, products, checkout, and payment processing.
+
+# AWS / Serverless
+
+Projects exploring serverless architectures for APIs and asynchronous processing using services such as:
+
+Lambda · API Gateway · SQS · SNS · S3 · RDS · CloudWatch
+
+# Stack
+
+```text
+Backend      Node.js · TypeScript · NestJS
+Database     PostgreSQL · Prisma · SQLite
+Messaging    RabbitMQ · SQS
+Cache        Redis
+Cloud        AWS · Serverless
+Testing      Jest · Testcontainers
+DevOps       Docker · GitHub Actions
+Frontend     React · Next.js · Tailwind
+```
+
+# Links
+
+GitHub: https://github.com/akyriuu
+LinkedIn: Marcus Vinícius
+
